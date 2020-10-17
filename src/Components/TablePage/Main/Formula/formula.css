@@ -1,0 +1,22 @@
+.formula {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid grey;
+}
+.formula-fx {
+  width: 45px;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid grey;
+  font-style: italic;
+  color: grey;
+  font-size: 15px;
+}
+.formula-input {
+  text-align: center;
+  padding: 4px 5px;
+  width: 100%;
+}
+/*# sourceMappingURL=formula.css.map */

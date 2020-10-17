@@ -1,0 +1,53 @@
+.fake-header {
+  width: 100%;
+  height: 60px;
+}
+.header {
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 2px 0 grey;
+  position: fixed;
+  z-index: 1000;
+}
+.new_table_place {
+  padding: 15px;
+  background-color: #dadce0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.create_new_table {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+}
+.create_new_table:hover {
+  border-color: green;
+  color: green;
+}
+.view_port {
+  display: flex;
+  width: 1080px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=header.css.map */
