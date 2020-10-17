@@ -1,0 +1,16 @@
+.text-option {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  width: 100%;
+  padding-left: 20px;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.material-icons.md-option {
+  font-size: 24px;
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=textOptions.css.map */

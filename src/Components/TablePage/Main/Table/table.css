@@ -1,0 +1,56 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  height: fit-content;
+  max-height: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 22px;
+  font-size: 12px;
+  min-height: 22px;
+}
+.row-info {
+  width: 45px;
+  min-width: 45px;
+  background-color: #f8f9fa;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 2px;
+  text-align: center;
+}
+.row-info-info.first {
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+.row-data {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.column {
+  padding-top: 2px;
+  width: 90px;
+  min-width: 90px;
+  min-height: 22px;
+  text-align: center;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: #f8f9fa;
+}
+.cell {
+  background-color: #f8f9fa;
+  padding-top: 2px;
+  width: 90px;
+  min-width: 90px;
+  min-height: 22px;
+  text-align: center;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+/*# sourceMappingURL=table.css.map */

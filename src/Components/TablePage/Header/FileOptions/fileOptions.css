@@ -1,0 +1,76 @@
+.file-options {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+.file-options-tools {
+  margin-top: 7px;
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.file-options-tools-main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.file-options-tools-logo {
+  width: 40px;
+  height: 40px;
+  background: url("sheets-icon.svg") no-repeat center center;
+  background-size: contain;
+  margin-left: 20px;
+}
+.file-options-tools-main-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+.file-options-tools-name {
+  height: fit-content;
+  font-size: 18px;
+  color: grey;
+}
+.file-options-account {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.file-options-account-access {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  height: 36px;
+  background-color: green;
+  padding: 0 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.material-icons.md-comment {
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  color: grey;
+  margin-right: 20px;
+}
+.material-icons.md-lock {
+  width: fit-content;
+  height: fit-content;
+  font-size: 12px;
+  padding-right: 5px;
+}
+.tool {
+  width: fit-content;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=fileOptions.css.map */
